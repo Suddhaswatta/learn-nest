@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Suddhaswatta/learn-nest/issues"
   },
-  "homepage": "https://github.com/Suddhaswatta/learn-nest#readme"
+  "homepage": "https://github.com/Suddhaswatta/learn-nest#readme",
+  "dependencies": {
+    "axios": "^0.23.0"
+  }
 }
