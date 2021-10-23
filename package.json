@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Suddhaswatta/learn-nest#readme",
   "dependencies": {
     "axios": "^0.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.4"
   }
 }
