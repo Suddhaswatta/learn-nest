@@ -1,1 +1,1 @@
-# learning nest js
+# learning nest js and typescript
