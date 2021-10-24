@@ -1,6 +1,6 @@
 
 console.log( "Start of main thread");
-const fetch_stdents = (callback)=>{
+const fetch_students = (callback)=>{
     setTimeout(()=>{
         const students = ["Adam","Eve","Madam","AAAA"]
         console.log("Students call fetch called");
@@ -11,7 +11,7 @@ const fetch_stdents = (callback)=>{
 
 // Chaining 
 
-fetch_stdents((res)=>{
+fetch_students((res)=>{
     const students = res
     cool_name(students,(name)=>{
             console.log(`${name} is cool name !!! `);
